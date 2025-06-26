@@ -1,0 +1,23 @@
+A tag <img> é um elemento vazio, o que significa que não possui uma tag de fechamento . Em vez disso, todos os atributos são incluídos na tag de abertura.
+
+
+Os atributos mais importantes da tag <img> são <src> , <alt> , <width> e <height>
+O atributo src especifica a URL de origem da imagem que deve ser exibida.
+
+O atributo alt fornece um texto alternativo que será exibido caso a imagem não possa ser carregada. Também é usado por leitores de tela para usuários com deficiência visual.
+
+Por exemplo: alt="Mountain landscape".
+
+O atributo width
+O atributo width especifica a largura da imagem. Ela pode ser definida em pixels (ex.: width="340") ou como uma porcentagem da largura do elemento que a contém (ex.: width="50%").
+
+O atributo altura
+Semelhantemente à largura, a altura especifica a altura da imagem em pixels ou como uma porcentagem de seu contêiner pai.
+
+Por exemplo: height="250"ou height="50%".
+
+Reunindo tudo
+Aqui está um exemplo da tag <img> com todos os quatro atributos em ação:
+
+exemplo
+<img src="https://edube.org/uploads/media/default/0001/03/mountain_landscape.jpg" alt="Mountain landscape" width="340" height="250">
